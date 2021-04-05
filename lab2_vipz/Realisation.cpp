@@ -54,7 +54,7 @@ void RemoveStudents(struct Sstudent* pHead) {
     }
 }
 
-//----------------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------
 
 double GroupMarkAvg(struct Sstudent* pStudent) {
     double dAmount = 0;
@@ -67,8 +67,7 @@ double GroupMarkAvg(struct Sstudent* pStudent) {
     return dSum / dAmount;
 }
 
-//----------------------------------------------------------------------------------------------------------------------------
-
+//-----------------------------------------------------------------------
 void SortByMarkAvg(struct Sstudent* pHead, double dGroupAvgMark) {
     struct  Sstudent* pTemp = pHead;
     while (1) {
@@ -89,7 +88,7 @@ void SortByMarkAvg(struct Sstudent* pHead, double dGroupAvgMark) {
     }
 }
 
-//----------------------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------
 
 struct  Sstudent* BubbleSort(struct  Sstudent* pHead) {
     struct  Sstudent* pTemp = pHead;
